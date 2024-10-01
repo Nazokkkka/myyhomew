@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.words{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.words a{
+    text-decoration: none;
+}
+
+.start{
+    display: flex;
+    flex-direction: row;
+    gap: 600px;
+    padding: 20px;
+}
+
+.birge{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.soz{
+    display: flex;
+    flex-direction: row;
+    gap: 110px;
+    padding: 20px;
+}
+
+.soz h1{
+    font-size: 50px;
+}
+
+button{
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+button:hover{
+    background-color: darkred;
+    color: black;
+}
+
+.middle{
+    display: flex;
+    flex-direction: row;
+    gap:40px
+}
+
+
+.fone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    width: 320px;
+    height: 500px;
+    gap: 20px;
+}
+
+
+
+.fone p{
+    color: rgb(181, 169, 169);
+}
+
+
+.fone h1{
+    color: orange;
+}
+
+.fone h2{
+    color: orange;
+}
+
+.songy{
+    display: flex;
+    flex-direction: column;
+}
+
+.end{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 32px;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.first h3:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+.first h1{
+    color: rgb(220, 143, 156);
+}
+
